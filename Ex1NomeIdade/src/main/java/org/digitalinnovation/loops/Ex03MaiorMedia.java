@@ -1,8 +1,8 @@
-package org.digitalinnovation;
+package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Exercise03MaiorMedia {
+public class Ex03MaiorMedia {
 
     public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package org.digitalinnovation;
+package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Exercise01NomeIdade {
+public class Ex01NomeIdade {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

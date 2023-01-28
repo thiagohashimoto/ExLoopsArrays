@@ -1,4 +1,4 @@
-package org.digitalinnovation;
+package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 

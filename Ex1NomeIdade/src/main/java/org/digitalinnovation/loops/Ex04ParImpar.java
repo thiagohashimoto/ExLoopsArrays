@@ -1,8 +1,8 @@
-package org.digitalinnovation;
+package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Exercise04ParImpar {
+public class Ex04ParImpar {
 
     public static void main(String[] args) {
 

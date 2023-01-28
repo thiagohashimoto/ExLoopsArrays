@@ -1,8 +1,8 @@
-package org.digitalinnovation;
+package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Exercise02Nota {
+public class Ex02Nota {
 
     public static void main(String[] args) {
 
