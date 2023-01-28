@@ -8,7 +8,7 @@ public class Ex01_OrdemInversa {
 
         Scanner scan = new Scanner(System.in);
 
-        int[] numeros = {0,1,2,3,4};
+        int[] numeros = new int[5];
         int count = 0;
 
         while (count<(numeros.length)){
@@ -22,7 +22,7 @@ public class Ex01_OrdemInversa {
 
         for (int i = numeros.length-1; i >= 0; i--){
 
-            System.out.println(numeros[i] + " ");
+            System.out.print(numeros[i] + " ");
 
         }
 
