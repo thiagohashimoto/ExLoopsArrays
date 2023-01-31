@@ -8,52 +8,21 @@ public class Ex03_NumerosAleatorios {
     public static void main(String[] args) {
 
         Random random = new Random();
+        int[] numerosAleatorios = new int[20];
 
-        Scanner scan = new Scanner(System.in);
+        for (int i = 0 ; i < numerosAleatorios.length ; i++){
 
-        int[] numeros = new int[20];
-        int count = 0;
-        int count1 = 0;
-        int count2 = 0;
-
-        while (count < numeros.length){
-            System.out.print("Digite um número: ");
-            numeros[count] = scan.nextInt();
-            while (numeros[count]<0 || numeros[count]>100){
-                System.out.print("Digite novamente: ");
-                numeros[count] = scan.nextInt();
-            }
-            count++;
+            int numero = random.nextInt(100);
+            numerosAleatorios[i] = numero;
         }
-
-        System.out.print("Números: {");
-
-        while (count1 < numeros.length-1){
-
-            System.out.print(numeros[count1] + ", ");
-
-            count1++;
-
+        System.out.print("Números Aleatórios: ");
+        for (int numero : numerosAleatorios) {
+            System.out.print(numero + " ");
         }
-
-        System.out.print(numeros[19] + "}");
-
-        System.out.println(" ");
-
-        System.out.print("Números Sucessivos: {");
-
-        while (count2 < numeros.length-1){
-
-            System.out.print(numeros[count2] + ", ");
-
-            count2++;
-
+        System.out.print("\nSucessores dos Números Aleatórios: ");
+        for (int numero : numerosAleatorios) {
+            System.out.print((numero+1) + " ");
         }
-
-        System.out.print(numeros[19] + "}");
-
-
-
 
 
     }
