@@ -1,5 +1,11 @@
 package org.digitalinnovation.arrays;
 
+/*
+
+Consoantes: Faça um Programa que leia um vetor de 6 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+ */
+
 import java.util.Scanner;
 
 public class Ex02_Consoantes {

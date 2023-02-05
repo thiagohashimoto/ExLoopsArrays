@@ -2,7 +2,15 @@ package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Ex04ParImpar {
+/*
+
+Par e Ímpar: Faça um programa que peça N números inteiros.
+Calcule e mostre a quantidade de números pares e a quantidade
+de números impares.
+
+ */
+
+public class Ex04_ParImpar {
 
     public static void main(String[] args) {
 

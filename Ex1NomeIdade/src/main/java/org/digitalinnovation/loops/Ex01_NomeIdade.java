@@ -1,8 +1,14 @@
 package org.digitalinnovation.loops;
 
 import java.util.Scanner;
+/*
+Nome e Idade: Faça um programa que leia conjuntos de dois valores, o primeiro representando
+o nome do aluno e o segundo representando a sua idade. (Pare o programa inserindo o valor 0
+no campo nome)
 
-public class Ex01NomeIdade {
+ */
+
+public class Ex01_NomeIdade {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

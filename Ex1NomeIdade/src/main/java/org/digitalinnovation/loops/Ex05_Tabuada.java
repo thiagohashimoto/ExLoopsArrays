@@ -1,8 +1,15 @@
 package org.digitalinnovation.loops;
 
+/*
+
+Tabuada: Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10.
+O usuário deve informar de qual numero ele deseja ver a tabuada.
+
+ */
+
 import java.util.Scanner;
 
-public class Exercise05Tabuada {
+public class Ex05_Tabuada {
 
     public static void main(String[] args) {
 

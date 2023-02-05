@@ -2,7 +2,13 @@ package org.digitalinnovation.loops;
 
 import java.util.Scanner;
 
-public class Ex06Fatorial {
+/*
+
+Fatorial: Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
+
+ */
+
+public class Ex06_Fatorial {
 
     public static void main(String[] args) {
 
